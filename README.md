@@ -17,13 +17,25 @@ lenses using the lens equations and trigonometry concepts.
 To get started, first clone this repository:
 
 ```bash
-git clone https://github.com/alphanome-ai/sec-ai.git
+git clone https://github.com/breakInIf/MagnifyingGlass.git
 ```
 
-then you can install the needed dependencies by running.
+then you can install the needed dependencies by running
 
 ```bash
 pip install -r requirements.txt
+```
+
+This project uses Cython, so you need to run the following line:
+
+```bash
+python setup.py build_ext --inplace
+```
+
+or you can use make if you want
+
+```bash
+make compile
 ```
 
 ## Running
@@ -41,6 +53,20 @@ python3 main.py -i <path_to_img> -p 100
 ```
 
 > **Warning** Too high precision may affect performance.
+
+You can run some pre-made tests as well
+
+```bash
+make test1
+```
+
+```bash
+make test2
+```
+
+```bash
+make test3
+```
 
 
 
