@@ -1,0 +1,7 @@
+venv/
+build/
+
+**/.DS_Store
+
+*.c
+*.cpython-39-darwin.so
