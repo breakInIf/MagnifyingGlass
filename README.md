@@ -68,5 +68,4 @@ make test2
 make test3
 ```
 
-
-
+![alt text](docs/test3.gif)
